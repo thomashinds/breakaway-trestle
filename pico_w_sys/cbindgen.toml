@@ -1,0 +1,3 @@
+# Suppress default includes, only use those listed below
+no_includes = true
+sys_includes = ["cstdint"]

@@ -1,0 +1,5 @@
+/app/target
+/build
+.DS_Store
+/target
+.vscode/settings.json

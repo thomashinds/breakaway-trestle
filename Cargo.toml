@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "app",
+    "pico_w_sys"
+]

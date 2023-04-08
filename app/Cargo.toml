@@ -1,0 +1,15 @@
+[package]
+name = "picotors"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "picotors"
+crate-type = ["staticlib"]
+
+[dependencies]
+cty = "0.2.2"
+panic-halt = "0.2.0"
+pico_w_sys = { path = "../pico_w_sys" }
