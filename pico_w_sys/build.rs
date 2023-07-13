@@ -34,6 +34,7 @@ fn main() {
         // Unwrap the Result and panic on failure.
         .expect("Unable to generate bindings");
 
+    // Need to make this filepath not hardcoded to my own directory
     bindings
         .write_to_file("/Users/thomas/Documents/peloton/picotors/pico_w_sys/src/lib.rs")
         .expect("Couldn't write bindings!");

@@ -1,12 +1,12 @@
 [package]
-name = "picotors"
+name = "breakaway_trestle_app"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "picotors"
+name = "breakaway_trestle_app"
 crate-type = ["staticlib"]
 
 [dependencies]

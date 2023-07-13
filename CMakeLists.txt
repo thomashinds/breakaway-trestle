@@ -26,14 +26,15 @@ FetchContent_MakeAvailable(Corrosion)
 set(Rust_CARGO_TARGET "thumbv6m-none-eabi")
 
 
-# Import targets defined in a package or workspace manifest `Cargo.toml` file
+# Import the "breakaway-trestle-app" crate from app/
 corrosion_import_crate(
     MANIFEST_PATH app/Cargo.toml 
     NO_STD 
     )
 
+# Add the bindgen headers to this library
 target_include_directories(
-    picotors
+    breakaway_trestle_app
     INTERFACE
     app/include
 )

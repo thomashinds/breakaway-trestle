@@ -8,7 +8,7 @@ target_link_libraries(cpico
     pico_cyw43_arch_none
     pico_multicore
     pico_stdlib
-    picotors
+    breakaway_trestle_app
     )
 
 target_include_directories(cpico 

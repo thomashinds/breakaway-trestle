@@ -31,6 +31,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
+name = "breakaway_trestle_app"
+version = "0.1.0"
+dependencies = [
+ "cty",
+ "panic-halt",
+ "pico_w_sys",
+]
+
+[[package]]
 name = "cexpr"
 version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -157,15 +166,6 @@ version = "0.1.0"
 dependencies = [
  "bindgen",
  "cty",
-]
-
-[[package]]
-name = "picotors"
-version = "0.1.0"
-dependencies = [
- "cty",
- "panic-halt",
- "pico_w_sys",
 ]
 
 [[package]]
